@@ -1,0 +1,23 @@
+ul, li {
+    padding: 10px;
+}
+.listPeople li {
+    cursor: pointer;
+    left: 0;
+    background-color: chocolate;
+    margin: 2px;
+    border-radius: 5px;
+}
+.listPeople li:hover {
+    color:darkslategrey;
+    background-color: darkorange;
+    left: 1px;
+}
+.listPeople .badge {
+    display: inline-block;
+    font-size: small;
+    color:violet;
+    padding:2px;
+    height: 1.3em;
+    margin:2px;
+}

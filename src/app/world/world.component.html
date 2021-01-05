@@ -1,0 +1,10 @@
+<h2>People List</h2>
+
+<ul class="listPeople">
+    <li *ngFor="let people of listPeople" 
+    (click)="onSelect(people)">
+        <span class="badge">{{ people.id }}</span> {{ people.name }}
+    </li>
+</ul>
+
+<app-people-detail [people]="selectedPeople"></app-people-detail>
